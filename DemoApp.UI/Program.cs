@@ -20,7 +20,7 @@ namespace DemoApp.UI
 
         private static void AddSamurai()
         {
-            var samurai = new Samurai { Name = "Ugochukwu" };
+            var samurai = new Samurai { Name = "John Eric" };
             _context.Samurais.Add(samurai);
             _context.SaveChanges();
         }
